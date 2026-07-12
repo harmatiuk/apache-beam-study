@@ -1,6 +1,6 @@
 import apache_beam as beam
 
-from src.beam_study.utils.print_output import Output
+from beam_study.transforms.print_output import Output
 from src.beam_study.models.user import User, Address
 
 user_1 = User(
