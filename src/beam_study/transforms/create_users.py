@@ -15,7 +15,7 @@ class CreateUsers(beam.PTransform):
 
 
 if __name__ == "__main__":
-    from beam_study.transforms.print_output import Output
+    from src.beam_study.transforms.print_output import Output
 
     with beam.Pipeline() as pipeline:
         pipeline | CreateUsers(count=5) | Output()
